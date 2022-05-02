@@ -12,7 +12,6 @@ target 'Aspire' do
     :hermes_enabled => false
   )
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
-  # pod 'stripe-react-native', path: '../node_modules/@stripe/stripe-react-native'
   target 'AspireTests' do
     inherit! :complete
     # Pods for testing
