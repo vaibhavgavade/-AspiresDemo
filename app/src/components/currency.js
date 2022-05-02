@@ -13,10 +13,9 @@ const Currency = props => {
 
 const styles = StyleSheet.create({
   container: {
-    // flex: 1,
     width: 40,
     height: 22,
-    // justifyContent: 'center',
+    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: R.colors.g,
     borderRadius: 4,

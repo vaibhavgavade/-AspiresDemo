@@ -11,4 +11,5 @@ export const strings = {
   Message: 'You have successfully set the limit',
   OK: 'Ok',
   Mark: 'Mark Henry',
+  DEBIT_CARD_LIMIT: 'Debit card limit',
 };
