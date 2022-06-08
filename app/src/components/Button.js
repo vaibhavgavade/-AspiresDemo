@@ -1,14 +1,11 @@
 import React from 'react';
 import {Text, TouchableOpacity, StyleSheet} from 'react-native';
-import R from '../../src/R';
-import {moderateScale} from './size';
-const RoundButton = props => {
+import R from '../R';
+
+const RedButton = props => {
   return (
     <TouchableOpacity
-      style={[
-        buttonStyle.buttonBody,
-        {backgroundColor: props.disabled ? R.colors.s : R.colors.g},
-      ]}
+      style={buttonStyle.buttonBody}
       onPress={props.onPress}
       disabled={props.disabled}>
       <Text style={buttonStyle.buttonText}>{props.children}</Text>
@@ -18,21 +15,21 @@ const RoundButton = props => {
 
 const buttonStyle = StyleSheet.create({
   buttonBody: {
-    // width: '100%',
-    padding: 17,
-    borderRadius: 30,
-    position: 'absolute',
-    bottom: 30,
-    left: 57,
-    right: 57,
-    zIndex: 2,
+    margin: 5,
+    backgroundColor: R.colors.A,
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 8,
+    marginHorizontal: 30,
   },
   buttonText: {
     color: R.colors.w,
-    fontSize: moderateScale(16, 0.1),
-    fontFamily: R.fonts.AspireBold,
-    alignSelf: 'center',
+    fontSize: 20,
+    fontStyle: 'normal',
+    fontWeight: 'bold',
+    // fontFamily: R.fonts.GothamBold
   },
 });
 
-export {RoundButton};
+export {RedButton};

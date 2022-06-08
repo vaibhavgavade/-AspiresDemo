@@ -1,3 +1,3 @@
-import DebitCard from '../src/scenes/debitCard';
-import Limit from '../src/scenes/limit';
-export {DebitCard, Limit};
+import Login from '../src/scenes/login';
+import Home from '../../app/src/scenes/Home';
+export {Home, Login};

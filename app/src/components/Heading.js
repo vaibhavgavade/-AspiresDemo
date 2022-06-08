@@ -15,7 +15,7 @@ const headingStyle = StyleSheet.create({
     paddingTop: moderateScale(5, 0.1),
   },
   textStyle: {
-    color: R.colors.w,
+    color: R.colors.A,
     fontSize: 24,
     fontFamily: R.fonts.AspireBold,
   },
